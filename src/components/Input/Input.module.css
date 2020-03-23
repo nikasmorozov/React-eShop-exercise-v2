@@ -1,0 +1,20 @@
+.formControl {
+  max-width: 30%;
+  margin: 0 auto;
+}
+.formControl ~ .formControl {
+  margin-top: 2rem;
+}
+.formControl label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.formControl input,
+.formControl textarea {
+  width: 100%;
+}
+.error {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+}
